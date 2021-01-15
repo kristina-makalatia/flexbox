@@ -1,0 +1,155 @@
+.section-bg {
+	background-color: #363E97;
+}
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+.box1 {
+	width: 570px;
+	height: 320px;
+	background-color: #fff;
+	/*margin-right: 30px;*/
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.box2 {
+	width: 570px;
+	height: 320px;
+	background-color: yellow;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+
+.wraper {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+
+/*Section#2*/
+.sect-bg {
+	background-color: #E6E6E6;
+}
+.article-wraper {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+.article-box {
+	width: 570px;
+	background-color: #F2F2F2;
+}
+.article-image-box {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+.text-box {
+	width: 355px;
+}
+.read {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: end;
+	    -ms-flex-pack: end;
+	        justify-content: flex-end;
+	margin-right: 30px;
+}
+.image-wraper {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+.image {
+	width: 270px;
+}
+.image img {
+	width: 100%;
+}
+.fb-icon {
+	color: red;
+	font-size: 30px;
+}
+.fb-icon:hover {
+	color: blue;
+}
+.youtube-icon {
+	color: aqua;
+	font-size: 30px;
+}
+
+.test::after {
+	content: ' ';
+	background: url('https://www.w3schools.com/css/smiley.gif');
+	height: 35px;
+	width: 30px;
+	display: inline-block;
+	background-repeat: no-repeat;
+}
+.box {
+	width: 100px;
+	height: 100px;
+}
+/*.box:nth-child(1) {
+	background-color: red;
+}*/
+.box:first-child {
+	background-color: red;
+}
+.box:nth-child(2) {
+	background-color: yellow;
+}
+.box:nth-child(3) {
+	background-color: aqua;
+}
+.box:nth-child(4) {
+	background-color: blue;
+}
+/*.box:last-child {
+	background-color: blue;
+}*/
+/*.box:nth-child(even) {
+	background-color: yellow;
+}*/
+/*.box:nth-child(odd) {
+	background-color: black;
+}
+.box:nth-child(2n) {
+	background-color: red;
+	margin-top: 30px;
+}*/
+
+.box:nth-child(2) .test-p {
+	color: #fff;
+}
+.box:nth-child(3) .test-p {
+	color: pink;
+}
